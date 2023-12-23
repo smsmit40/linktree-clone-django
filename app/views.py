@@ -41,6 +41,7 @@ def page(request):
                 prof.twitter = obj.twitter
                 prof.description = obj.description
                 prof.template = obj.template
+                prof.profile_picture = obj.profile_picture
                 print(obj.template)
                 prof.save()
                 # prof.delete()

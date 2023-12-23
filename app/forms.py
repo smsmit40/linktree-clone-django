@@ -5,7 +5,7 @@ from django.forms import ModelForm
 class ProfileForm(ModelForm):
     class Meta:
         model = Profile
-        fields = ['name', 'description', 'twitter', 'github', 'linkedin', 'template']
+        fields = ['name', 'description', 'twitter', 'github', 'linkedin', 'template', 'profile_picture']
 
 
 class LinksForm(ModelForm):
